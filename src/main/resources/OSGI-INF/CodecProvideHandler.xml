@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="com.thrid.party.codecDemo.test.ProtocolAdapterImpl">
+    <implementation class="com.thrid.party.codec.demo.ProtocolAdapterImpl"/>
+    <service>
+		<provide interface="com.huawei.m2m.cig.tup.modules.protocol_adapter.IProtocolAdapter" />
+	</service>
+</scr:component>
